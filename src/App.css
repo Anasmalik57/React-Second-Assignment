@@ -1,0 +1,34 @@
+body {
+  width: calc(100vw - 64px);
+  height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 2px solid;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+.btn {
+  border: 2px solid;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  background-color:#ef233c;
+  cursor: pointer;
+}
+.btn2{
+  background-color:#2d6a4f;
+}
+.numeric {
+  font-size: 80px;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+}
